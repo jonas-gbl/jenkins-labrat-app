@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+spec:
+  containers:
+  - name: maven
+    image: maven:3.8.4-openjdk-17
+    command:
+    - sleep
+    args:
+    - 99d
